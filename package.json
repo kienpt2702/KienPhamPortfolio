@@ -2,7 +2,7 @@
   "name": "kienphamportfolio",
   "version": "1.0.0",
   "description": "portfolio of kien",
-  "main": "index.html",
+  "main": "html/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
