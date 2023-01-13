@@ -1,0 +1,200 @@
+* {
+    color: white;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    z-index: 0;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 50px;
+    border-radius: 0 0 20px 20px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    height: auto;
+}
+
+.jumbotron-logo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid mediumspringgreen;
+}
+
+.row {
+    padding: 10px 25px;
+}
+
+.green-button {
+    background-color: mediumspringgreen;
+    color: black;
+    text-decoration-color: black;
+}
+
+.description-header {
+    border-bottom: 3px solid mediumspringgreen;
+    display: inline;
+}
+
+.description-content {
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 17px;
+}
+
+.resume-header {
+    font-weight: bold;
+    border-bottom: 1px mediumspringgreen ridge;
+    /*    display: inline;*/
+}
+
+.resume-row {
+    padding: 10px 25px;
+    justify-content: center;
+}
+
+.form-row {
+    padding: 10px 25px;
+    justify-content: center;
+}
+
+.resume-title, .resume-content {
+    margin-left: 27px;
+}
+
+.accordion-header {
+    position: relative;
+    right: -15px;
+}
+
+.footer {
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.project-image-container {
+    width: 300px;
+    height: 225px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.project-image-container:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.project-image {
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: transform 0.5s;
+    margin: auto;
+}
+
+.project-description {
+    width: 300px;
+    padding: 10px;
+}
+
+.main {
+    border-radius: 25px;
+    border: 2px solid mediumspringgreen;
+    padding: 25px 0;
+    margin-top: 10px;
+}
+
+html {
+    scroll-padding-top: 60px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.green-button, .form-control{
+    border-radius: 5px;
+    margin: auto;
+}
+
+button:hover, .nav-item.active{
+    color: black;
+    background-color: mediumaquamarine;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+.transparent-button{
+    background-color: transparent;
+    color: aqua;
+}
+
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}

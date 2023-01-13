@@ -1,0 +1,310 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a7cc8b0565.js" crossorigin="anonymous"></script>
+    <title>Kien Pham - Resume</title>
+</head>
+
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand mr-auto" href="index.html">
+            <i style="height: 30px; width: 30px" class="fa-brands fa-android"></i>Kien Pham
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="jumbotron">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h1 style="font-size: 250px">🧑🏽‍💻</h1>
+        </div>
+    </div>
+</header>
+
+<div class="container main" id="resume">
+    <div id="eduAccordion" class="row resume-row">
+        <div class="col-sm-10"><h2 class="resume-header">Education</h2></div>
+
+        <div class="col-sm-10">
+            <div id="education-accordion">
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#tcu">
+                    <div><h5>Texas Christian University</h5></div>
+
+                    <div>2021-2025
+                        <i class="fa-regular fa-angle-down"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="tcu" class="col-sm-10 collapse" data-parent="#education-accordion">
+            <div class="d-flex justify-content-between resume-title">
+                <i>Bachelor of Science in Computer Science</i>
+                <b>GPA: 4.0/4.0</b>
+            </div>
+
+            <div class="text-justify resume-content">
+                <i>Relevant Coursework:</i>
+                <ul>
+                    <li>Computer Science: Web Technology (IP), Computer Organization (IP), Programming Language Concept
+                        (IP), Data Structures, Unix/Linux System Administration
+                    </li>
+                    <li>Math: Linear Algebra, Calculus I & II, Discrete Math I & II</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="expAccordion" class="row resume-row">
+        <div class="col-sm-10"><h2 class="resume-header">Experience</h2></div>
+
+        <div class="col-sm-10">
+            <div id="experience-accordion">
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#Google">
+                    <div><h5>Google</h5></div>
+
+                    <div class="ml-auto">Summer 2023
+                        <i class="fa-regular fa-angle-down"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Google" class="col-sm-10 collapse">
+            <div class="d-flex justify-content-between resume-title">
+                <i>Incoming STEP Intern</i>
+                <p>Mountainview, CA</p>
+            </div>
+
+            <ul class="text-justify resume-content">
+                <li>Start in May 2023</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#Savvycom">
+                    <div><h5>Savvycom</h5></div>
+
+                    <div>Summer 2022
+                        <i class="fa-regular fa-angle-down"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Savvycom" class="col-sm-10 collapse">
+            <div class="d-flex justify-content-between resume-title">
+                <i>Software Engineer Intern</i>
+                <p>Hanoi, Vietnam</p>
+            </div>
+
+            <ul class="text-justify resume-content">
+                <li>Implemented REST API managing 8 different working time requests using Node.js, Nest.js,
+                    TypeScript, and Postman
+                </li>
+                <li>Redesigned data models to store employees’ time request details using PostgreSQL</li>
+                <li>Optimized request time by 40% by implementing efficient data querying with TypeORM</li>
+            </ul>
+
+        </div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#TexasChristianUniversity">
+                    <div><h5>Texas Christian University</h5></div>
+
+                    <div>Jan 2022-Present
+                        <i class="fa-regular fa-angle-down"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="TexasChristianUniversity" class="col-sm-10 collapse">
+            <div class="d-flex justify-content-between resume-title">
+                <i>Teaching Assistant-Computer Science</i>
+                <p>Fort Worth, TX</p>
+            </div>
+
+            <ul class="text-justify resume-content">
+                <li>Tutor over 50 students with lab projects in Computer Science courses: Data Structures, Technique in
+                    Programming, Introduction to Programming
+                </li>
+            </ul>
+
+            <div class="d-flex justify-content-between resume-title">
+                <i>Teaching Assistant-Math</i>
+                <p>Fort Worth, TX</p>
+            </div>
+
+            <ul class="text-justify resume-content">
+                <li>Grade and provide constructive feedback on 30 students' weekly assignments</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="skillsAccordion" class="row resume-row">
+        <div class="col-sm-10"><h2 class="resume-header">Technical Skills</h2></div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#programming">
+                    <div><h5>Programming</h5></div>
+
+                    <i class="fa-regular fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="programming" class="col-sm-10 collapse">
+            <ul class="text-justify resume-content">
+                <li>Java, JavaScript, TypeScript, Python, Git</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#frameworks">
+                    <div><h5>Frameworks/Libraries</h5></div>
+
+                    <i class="fa-regular fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="frameworks" class="col-sm-10 collapse">
+            <ul class="text-justify resume-content">
+                <li>Node.js, Nest.js, Express.js, HTML, CSS, Bootstrap, JQuery</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#databases">
+                    <div><h5>Databases</h5></div>
+
+                    <i class="fa-regular fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="databases" class="col-sm-10 collapse">
+            <ul class="text-justify resume-content">
+                <li>PostgreSQL, MongoDB</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="awardsAccordion" class="row resume-row">
+        <div class="col-sm-10"><h2 class="resume-header">Awards</h2></div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#award1">
+                    <div><h5>TCU Dean’s Honor List</h5></div>
+
+                    <div>Fall 2021-Present<i class="fa-regular fa-angle-down"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="award1" class="col-sm-10 collapse">
+            <ul class="text-justify resume-content">
+                <li>Awarded to full-time, degree-seeking undergraduate students with exceptional academic performance
+                    throughout the semester!
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-sm-10">
+            <div>
+                <div class="accordion-header btn d-flex justify-content-between" data-toggle="collapse"
+                     data-target="#award2">
+                    <div><h5>TCU Scholar</h5></div>
+
+                    <div>Fall 2021-Present<i class="fa-regular fa-angle-down"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="award2" class="col-sm-10 collapse">
+            <ul class="text-justify resume-content">
+                <li>Awarded to full-time, degree-seeking undergraduate students who achieve a 4.0 GPA (all “A” grades)
+                    in any
+                    spring or fall semester are recognized as TCU Scholars by the academic deans.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--loading page-->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a class="btn" href="https://www.linkedin.com/in/kienpham2702/"><i
+                        class="fa fa-linkedin"></i></a>
+                <a class="btn" href="https://github.com/kienpt2702"><i class="fa fa-github"></i></a>
+                <a class="btn" href="mailto:kienpt2702@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                <a class="btn" href="https://www.instagram.com/_kien.t/"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn" href="https://www.facebook.com/profile.php?id=100009082212142"><i
+                        class="fa fa-facebook"></i></a>
+            </div>
+
+            <div class="col-12">
+                <p style="color: darkgray; font-size: 15px">
+                    © 2023 Kien Pham. Inspired by design of Oluwakemi Adeleke
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

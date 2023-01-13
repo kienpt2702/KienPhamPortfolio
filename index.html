@@ -1,0 +1,189 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a7cc8b0565.js" crossorigin="anonymous"></script>
+    <title>Kien Pham - Homepage</title>
+</head>
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand mr-auto" href="#">
+            <i style="height: 30px; width: 30px" class="fa-brands fa-android"></i>Kien Pham
+        </a>
+
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="jumbotron text-center text-sm-left container">
+    <div class="row justify-content-around">
+        <div class="col-12 col-md-5 text-md-justify">
+            <h1 style="font-size:65px">Kien Pham👋<br></h1>
+            <h3 style="color: mediumspringgreen">Incoming STEP Intern at Google!</h3>
+            <p>Computer Science major and Math minor undergraduate at Texas Christian University 📖</p>
+            <p> Aspiring Software Engineer 🧑🏽‍💻</p>
+            <a href="#main-aboutme">
+                <button class="btn green-button" id="aboutButton" data-target="#main-aboutme">About Me</button>
+            </a>
+        </div>
+
+        <div class="col-12 col-md-5 align-self-center text-center" style="margin: 10px">
+            <img src="images/logo.png" alt="logo" class="jumbotron-logo img-fluid">
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="main" style="display: none" id="main-aboutme">
+        <div class="row justify-content-center" id="about">
+            <div class="col-12 col-md-9"><h4 class="description-header">About</h4></div>
+
+            <div class=" col-md-9 description-content">
+                <p>
+                    I'm Kien, a sophomore pursuing Bachelor of Computer Science at Texas Christian University.
+                    I've broadened my understanding of various areas of product development and sharpened my technical
+                    skills to solve challenging business problems after participating in several projects and
+                    internships. I will keep updating myself to achieve my goal of becoming a software engineer!
+
+                </p>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-1 d-flex justify-content-center">
+                <a href="resume.html">
+                    <button type="submit" class="btn rounded green-button">My Resume</button>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center" id="projects">
+            <div class="col-12 col-md-9"><h4 class="description-header">Projects</h4></div>
+            <div class="col-md-9 description-content">
+                <p>
+                    Practice makes perfect! By participating in various projects, I have strengthened both technical and
+                    personal skills. Take a look at some of my notable projects 💻
+                </p>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-1 d-flex justify-content-center">
+                <a href="projects.html#projects">
+                    <button type="submit" class="btn rounded green-button">My Projects</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" id="contact">
+            <div class="col-12 col-md-9"><h4 class="description-header">Contact</h4></div>
+            <div class="col-md-9 description-content">
+                <p>
+                    I am always willing to listen to new ideas and address any concerns.
+                    Please contact me using any of the ways listed below!
+                </p>
+            </div>
+
+            <div class="col-12 col-md-9">
+                <div class="row justify-content-around d-flex">
+                    <a href="https://github.com/kienpt2702">
+                        <button type="submit" class="btn transparent-button"><i
+                                class="fa fa-github" style="color: inherit"></i> /kienpt2702
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kienpham2702/">
+                        <button type="submit" class="btn transparent-button"><i
+                                class="fa fa-linkedin" style="color: inherit"></i> /kienpham2702
+                        </button>
+                    </a>
+
+                    <a href="tel:+6823748214">
+                        <button type="submit" class="btn transparent-button"><i
+                                class="fa fa-phone" style="color: inherit"></i> (+1) 682-374-8214
+                        </button>
+                    </a>
+                    <a href="mailto:kienpt2702@gmail.com">
+                        <button type="submit" class="btn transparent-button"><i
+                                class="fa fa-envelope" style="color: inherit"></i> kienpt2702@gmail.com
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="w-100"></div>
+
+            <div class="col-1 d-flex justify-content-center">
+                <a href="contact.html">
+                    <button type="submit" class="btn rounded green-button">Contact Me</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a class="btn" href="https://www.linkedin.com/in/kienpham2702/"><i
+                        class="fa fa-linkedin"></i></a>
+                <a class="btn" href="https://github.com/kienpt2702"><i class="fa fa-github"></i></a>
+                <a class="btn" href="mailto:kienpt2702@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                <a class="btn" href="https://www.instagram.com/_kien.t/"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn" href="https://www.facebook.com/profile.php?id=100009082212142"><i
+                        class="fa fa-facebook"></i></a>
+            </div>
+
+            <div class="col-12">
+                <p style="color: darkgray; font-size: 15px">
+                    © 2023 Kien Pham. Inspired by design of Oluwakemi Adeleke
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--loading page-->
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
