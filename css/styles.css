@@ -11,6 +11,7 @@ body {
 
 .navbar {
     background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 50px;
     border-radius: 0 0 20px 20px;
@@ -66,13 +67,26 @@ body {
     justify-content: center;
 }
 
-.resume-title, .resume-content {
-    margin-left: 27px;
+.resume-content {
+    margin-left: 20px;
 }
 
-.accordion-header {
+.accordion-header, .resume-title {
     position: relative;
-    right: -15px;
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-header :first-child, .resume-title :first-child {
+    text-align: left;
+}
+
+.accordion-header :nth-child(2), .resume-title :nth-child(2) {
+    text-align: right;
+    overflow-wrap: break-word;
+    color: gold;
 }
 
 .footer {
@@ -148,7 +162,7 @@ button:hover, .nav-item.active{
 
 
 
-
+/*loading effect*/
 .content {
     display: flex;
     justify-content: center;
