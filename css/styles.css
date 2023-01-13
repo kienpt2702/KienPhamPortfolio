@@ -86,7 +86,6 @@ body {
 .accordion-header :nth-child(2), .resume-title :nth-child(2) {
     text-align: right;
     overflow-wrap: break-word;
-    color: gold;
 }
 
 .footer {
