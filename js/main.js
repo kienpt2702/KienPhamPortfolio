@@ -4,6 +4,10 @@ $(document).ready(function () {
     $('.accordion-header').click(updateDropdown);
 
     $('#aboutButton').click(show);
+
+    $('#reset').click(function () {
+        $(this).find('form').find("input[type=text], textarea").val("");
+    });
 });
 
 function updateDropdown() {
