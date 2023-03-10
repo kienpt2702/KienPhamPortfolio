@@ -31,3 +31,27 @@ function fadeOut(data) {
         $(data).fadeOut("slow");
     }
 }
+
+const axios = require("axios");
+
+const options = {
+  method: 'GET',
+  url: 'https://youtube-v31.p.rapidapi.com/search',
+  params: {
+    q: 'music',
+    part: 'snippet,id',
+    regionCode: 'US',
+    maxResults: '50',
+    order: 'date'
+  },
+  headers: {
+    'X-RapidAPI-Key': 'f163bafa66mshacbf4644bba1e4dp11d3f7jsnc451fd307333',
+    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});

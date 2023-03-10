@@ -25,9 +25,10 @@ body {
 
 .jumbotron-logo {
     width: 350px;
-    height: 350px;
+    height: 425px;
     border-radius: 25px;
     border: 2px solid mediumspringgreen;
+    object-fit: fill;
 }
 
 .row {
