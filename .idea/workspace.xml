@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="904c8a26-a729-491c-9c64-64d21eb62dc4" name="Changes" comment="fix logo in center">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1678421577234" duration="281000" />
       <workItem from="1678430505701" duration="83000" />
       <workItem from="1678431589097" duration="23000" />
-      <workItem from="1704294220234" duration="3234000" />
+      <workItem from="1704294220234" duration="3470000" />
     </task>
     <task id="LOCAL-00001" summary="update cdn">
       <created>1673587904159</created>
